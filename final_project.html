@@ -1,0 +1,50 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Star Wars Characters</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="characters-container" class="container">
+      <h1 class="title">Star Wars Characters</h1>
+      <div id="characters-list" class="characters-list"></div>
+      <div id="pagination-btns" class="pagination-btns">
+        <button id="prev-collection-btn" class="btn">Prev Page</button>
+        <button id="next-collection-btn" class="btn">Next Page</button>
+      </div>
+    </div>
+    <div id="character-details-container" class="container hidden">
+      <div id="pagination" class="pagination">
+        <button id="prev-btn" class="btn">Prev Hero</button>
+        <button id="next-btn" class="btn">Next Hero</button>
+      </div>
+      <h1 id="char-name" class="char-name"></h1>
+      <table class="table">
+        <tr>
+          <td class="label">Birth Year:</td>
+          <td id="char-birth-year" class="value"></td>
+        </tr>
+        <tr>
+          <td class="label">Gender:</td>
+          <td id="char-gender" class="value"></td>
+        </tr>
+        <tr>
+          <td class="label">Films:</td>
+          <td id="char-films" class="value"></td>
+        </tr>
+        <tr>
+          <td class="label">Homeworld:</td>
+          <td id="char-homeworld" class="value"></td>
+        </tr>
+        <tr>
+          <td class="label">Species:</td>
+          <td id="char-species" class="value"></td>
+        </tr>
+      </table>
+      <button id="back-btn" class="btn">Back to List</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

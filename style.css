@@ -1,0 +1,84 @@
+/* style.css */
+body {
+  width: 90%;
+  height: 90vh;
+  background-image: url("./background.jpg");
+  background-size: cover;
+  box-sizing: content-box;
+}
+.title {
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  color: #d0d0d0;
+}
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+.table {
+  margin-bottom: 30px;
+  color: #d0d0d0;
+}
+
+.characters-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.character-card {
+  flex: 1 0 calc(33.33% - 40px);
+  margin: 10px 20px 10px 0px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: border-radius 0.5s;
+}
+
+.character-card:hover {
+  background-color: #d1d1d1;
+  border-radius: 20px;
+}
+
+.char-name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #d0d0d0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px 20px 10px 0px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-radius 0.5s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  padding-left: 10px;
+}
